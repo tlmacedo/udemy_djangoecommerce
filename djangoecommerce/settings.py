@@ -115,7 +115,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC_ROOT = '/home/cafeperfeito/www/static'
+STATIC_ROOT = '/home/cafeperfeito/www/static'
 
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'staticfiles')
