@@ -3,9 +3,16 @@ from django.http import HttpResponse
 
 
 def index(request):
-    texts = ['Lorem ipsum dolor sit amet', 'consectetur adipisicing elit']
-    context = {
-        'title': 'django e-commerce',
-        'texts': texts
-    }
-    return render(request, 'core/index.html', context)
+    return render(request, 'core/index.html')
+
+
+def contact(request):
+    return render(request, 'core/contact.html')
+
+
+def product_list(request):
+    return render(request, 'core/product_list.html')
+
+
+def product(request):
+    return render(request, 'core/product.html')
